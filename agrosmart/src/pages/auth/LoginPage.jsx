@@ -1,9 +1,8 @@
-// pages/auth/LoginPage.jsx
 import AuthLayout from "../../components/auth/AuthLayout";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Logo from "../../components/common/Logo";
-import LoginForm from "../../components/auth/LoginForm"; // Sahi lowercase path
+import LoginForm from "../../components/auth/LoginForm";
 import { USER_ROLES } from "../../constants/appConstants";
 
 const LoginPage = () => {
